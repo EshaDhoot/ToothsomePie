@@ -1,0 +1,155 @@
+/* TAG Selectors */
+h1 {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+body {
+    font-family: sans-serif;
+
+}
+h2 {
+    font-family: "Montserrat";
+    font-size: 2rem;
+    line-height: 3rem;
+}
+h3 {
+    font-family:"Montserrat";
+    font-size: 2rem;
+}
+h4 {
+    font-family:"Ubuntu";
+    font-size:1.5rem;
+}
+p {
+    color: rgb(66, 62, 62);
+    font-family: "Ubuntu";
+    font-size: 1.2rem;
+}
+
+
+/* ID Selectors */
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+#features {
+    padding: 9% 18%;
+    background-color: white;
+    position: relative;
+}
+#variety {
+     padding: 9% 18%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+#modify {
+     text-align: center;
+    background-color: #ef8172;
+     color: rgb(224, 59, 59);
+    padding-bottom: 6rem;
+}   
+#pricing {
+    text-align: center;
+    padding:9% 18%;
+}
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 9% 18%;
+    color: white;
+}
+#footer {
+    padding: 9% 18%;
+    text-align: center;
+}
+
+
+/* CLASS Selectors */
+.cake {
+    height: 40rem;
+    width: 20rem;
+    transform: rotate(25deg);
+    position: absolute;
+}
+.container-fluid {
+    padding: 3% 15%;
+}
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Ubuntu";
+}
+.button {
+    margin: 5% 3% 5% 0;
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+.fas {
+    color: #ff4c68;
+    height: 25%;
+    width: 25%;
+    margin-bottom: 1rem;
+}
+.fas:hover {
+    color: rgb(217, 105, 123);
+}
+.item {
+    height: 30%;
+    width: 30%;
+    border-radius: 100%;
+}
+.carousel-item {
+    padding: 9% 18%;
+}
+
+.price {
+    padding: 3% 2%;
+}
+.heading {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.buttons {
+    text-align: center;
+    border-color: rgb(197, 42, 42);
+    font-family: "Montserrat";
+    margin-top: 10%;
+}
+.icons {
+    margin: 1rem 1rem;
+    height: 2rem;
+    width: 2rem;
+    color: black;
+}
+
+
+/* Resolution */
+@media (max-width: 1028px) {
+#title {
+        text-align: center;
+     }
+h1 {
+    font-size: 2rem;
+}     
+.cake {
+    position: static;
+    transform: rotate(0);
+}
+}
+
+
